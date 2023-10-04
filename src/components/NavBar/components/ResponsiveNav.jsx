@@ -1,5 +1,4 @@
-
-import NavStyles from "../styles/index.module.css"
+import NavStyles from "../styles/index.module.css";
 import { Link } from "react-scroll";
 import { Fade } from "react-awesome-reveal";
 
@@ -18,33 +17,39 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
         }`}
       >
         <Fade delay={600}>
-          <Link
-            to="inicio"
-            spy={true}
-            smooth={true}
-            duration={200}
-            activeClass={NavStyles.active_li}
-          >
-            <li>Inicio</li>
-          </Link>
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={200}
-            activeClass={NavStyles.active_li}
-          >
-            <li>Sobre Nosotros</li>
-          </Link>
-          <Link
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={200}
-            activeClass={NavStyles.active_li}
-          >
-            <li>Contacto</li>
-          </Link>
+          <li>
+            <Link
+              to="inicio"
+              spy={true}
+              smooth={true}
+              duration={200}
+              activeClass={NavStyles.active_li}
+            >
+              <a>Inicio</a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={200}
+              activeClass={NavStyles.active_li}
+            >
+              <a>Nosotros</a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={200}
+              activeClass={NavStyles.active_li}
+            >
+              <a>Contacto</a>
+            </Link>
+          </li>
         </Fade>
       </ul>
     </div>

@@ -23,6 +23,7 @@ const NavBar = () => {
           </Link>
         </div>
         <button
+          type="button"
           id={NavStyles.nav_button}
           onClick={() => {
             setIsOpen(!isOpen);
