@@ -1,0 +1,11 @@
+.buttonElement{
+    padding: 0.6em 1em;
+    border: 4px solid black;
+    transition: ease-in-out 0.3s;
+    background-color: #D20402;
+    color: black;
+    font-weight: bolder;
+    font-size: 5px;
+    width: 40%;
+    height: 30%;
+}

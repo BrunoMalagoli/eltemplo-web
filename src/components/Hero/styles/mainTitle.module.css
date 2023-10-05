@@ -1,0 +1,44 @@
+
+#mainTitleContainer{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 5px;
+}
+
+#mainTitleContainer > h1{
+    color: black;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 7vh;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    text-align: left;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#mainTitleContainer > h3{
+    color: black;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 3vh;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+@media (min-width: 768px){
+    #mainTitleContainer{
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        gap: 5px;
+    }
+}
