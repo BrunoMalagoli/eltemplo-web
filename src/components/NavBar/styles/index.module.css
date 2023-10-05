@@ -6,11 +6,12 @@
 #nav_container {
   background-color: #000000;
   width: 92%;
-  height: 15vh;
+  height: 15dvh;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 5vh;
+  padding-top: 5dvh;
+  top: 0;
   position: fixed;
   z-index: 10;
   transition: 0.8s ease-in-out;
@@ -18,11 +19,12 @@
 #nav_container_active {
   background-color: #000000;
   width: 92%;
-  height: 50vh;
+  height: 50dvh;
+  top: 0;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 5vh;
+  padding-top: 5dvh;
   position: fixed;
   z-index: 10;
   transition: 0.8s ease-in-out;
@@ -41,7 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 12vh;
+  height: 12dvh;
 }
 #nav_button {
   background-color: #000000;
