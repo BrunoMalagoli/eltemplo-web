@@ -7,7 +7,9 @@ const Hero = () => {
     <section id={HeroStyles.heroContainer}>
       <div id={HeroStyles.mainTitleWrapper}>
         <MainTitle />
-        <ActionButton />
+        <div className={HeroStyles.buttonContainer}>
+          <ActionButton />
+        </div>
       </div>
       <div id={HeroStyles.carouselContainer}>
         <p>carousel</p>

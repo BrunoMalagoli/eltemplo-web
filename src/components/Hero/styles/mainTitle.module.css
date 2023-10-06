@@ -1,10 +1,9 @@
 
 #mainTitleContainer{
-    height: 60%;
+    height: 50%;
     width: 80%;
     display: flex;
     flex-direction: column;
-    padding-top: 5%;
     gap: 5px;
 }
 
@@ -15,9 +14,7 @@
     font-size: 7vh;
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    text-align: left;
-    padding-left: 4%;
-    padding-right: 4%;
+
 }
 
 #mainTitleContainer > h3{
@@ -26,12 +23,20 @@
     font-family: "Roboto";
     font-weight: 700;
     font-size: 3vh;
-    text-align: left;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    padding-left: 4%;
-    padding-right: 4%;
+
 }
 
+
+@media (min-width: 480px){
+    #mainTitleContainer{
+        height: 60%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+    }
+}
 @media (min-width: 768px){
     #mainTitleContainer{
         height: 40%;
@@ -40,5 +45,12 @@
         flex-direction: column;
         padding-top: 5%;
         gap: 5px;
+        padding-left: 10%;
+    }
+    #mainTitleContainer > h1{
+        text-align: left;
+    }
+    #mainTitleContainer > h3{
+        text-align: left;
     }
 }
