@@ -1,4 +1,5 @@
 import ActionButton from "./components/ActionButton";
+import CarouselComponent from "./components/Carousel";
 import MainTitle from "./components/MainTitle";
 import HeroStyles from "./styles/index.module.css";
 
@@ -12,7 +13,7 @@ const Hero = () => {
         </div>
       </div>
       <div id={HeroStyles.carouselContainer}>
-        <p>carousel</p>
+        <CarouselComponent/> 
       </div>
     </section>
   );

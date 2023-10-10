@@ -1,9 +1,10 @@
 
 #mainTitleContainer{
-    height: 50%;
+    height: 80%;
     width: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     gap: 5px;
 }
 
@@ -11,7 +12,7 @@
     color: black;
     text-align: center;
     font-family: "Roboto";
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
@@ -37,7 +38,7 @@
         padding-top: 5%;
     }
 }
-@media (min-width: 768px){
+@media (width > 768px){
     #mainTitleContainer{
         height: 40%;
         width: 80%;

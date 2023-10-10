@@ -24,12 +24,13 @@ const NavBar = () => {
         </div>
         <button
           type="button"
+          title="MenuButton"
           id={NavStyles.nav_button}
           onClick={() => {
             setIsOpen(!isOpen);
           }}
         >
-          <IconHamburgerMenu height={"2rem"} width={"2rem"} />
+          <IconHamburgerMenu height={"3rem"} width={"3rem"} />
         </button>
         {isMobile ? "" : <ResponsiveNav isOpen={isOpen} isMobile={isMobile} />}
       </div>

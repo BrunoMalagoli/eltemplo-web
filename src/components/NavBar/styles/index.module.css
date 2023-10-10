@@ -68,6 +68,7 @@
 }
 a {
   width: 25%;
+  font-size: 3vh;
 }
 a:hover {
   cursor: pointer;
@@ -78,7 +79,6 @@ a:hover {
   list-style: none;
   width: 100%;
   text-align: center;
-  font-size: larger;
 }
 
 .active_li {

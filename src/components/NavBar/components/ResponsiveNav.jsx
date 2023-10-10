@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { Fade } from "react-awesome-reveal";
 
 const ResponsiveNav = ({ isOpen, isMobile }) => {
-
   return (
     <div
       className={`${
