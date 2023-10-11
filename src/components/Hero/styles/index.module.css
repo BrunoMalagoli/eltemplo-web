@@ -50,6 +50,9 @@
     justify-content: center;
     padding-left: 0%;
   }
+  #carouselContainer > div > div > div > button{
+    display: none;
+  }
 }
 
 

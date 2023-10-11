@@ -23,12 +23,19 @@ min-width:200px ;
 min-height:150px;
 }
 
+#iconsContainer :nth-child(3){
+  scale: 1.5;
+}
+
 @media (min-width : 480px) {
   #iconsWrapper {
     width: 250vw;
   }
   #iconsContainer{
   gap: 15%;
+}
+#iconsContainer  :nth-child(3){
+  scale: 1.5;
 }
 }
 
@@ -46,6 +53,9 @@ min-height:150px;
     max-height: 150px;
     min-width: 200px;
     min-height: 150px;
+  }
+  #iconsContainer  :nth-child(3){
+    scale: 1.5;
   }
 }
 
