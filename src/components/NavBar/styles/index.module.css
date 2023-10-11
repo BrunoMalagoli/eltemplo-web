@@ -44,6 +44,7 @@
   align-items: center;
   justify-content: space-between;
   height: 12dvh;
+  overflow-y: hidden;
 }
 #nav_button {
   background-color: #000000;
@@ -68,7 +69,7 @@
 }
 a {
   width: 25%;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 a:hover {
   cursor: pointer;
@@ -119,12 +120,10 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
   }
-  .nav_links_desk > li > a {
-    width: 25%;
-  }
-  .nav_links_desk > li > a :hover {
-    cursor: pointer;
+  a{
+    font-size: 3.5vh;
   }
   .nav_links_desk > li > a {
     color: rgb(255, 255, 255);
