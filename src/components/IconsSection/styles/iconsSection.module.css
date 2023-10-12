@@ -1,11 +1,11 @@
-#iconsWrapper{
+#iconsWrapper {
   overflow: hidden;
   position: relative;
   height: 25vh;
   width: 300vw;
 }
 
-#iconsContainer{
+#iconsContainer {
   display: flex;
   overflow: hidden;
   animation: slideLeft 15s linear infinite;
@@ -16,32 +16,33 @@
   height: 100%;
 }
 
-#iconsContainer > img{
-max-width:200px;
-max-height:150px;
-min-width:200px ;
-min-height:150px;
+#iconsContainer > img {
+  max-width: 200px;
+  max-height: 150px;
+  min-width: 200px;
+  min-height: 150px;
 }
 
-#iconsContainer :nth-child(3){
+#iconsContainer :nth-child(3) {
   scale: 1.5;
 }
 
-@media (min-width : 480px) {
+@media (min-width: 480px) {
   #iconsWrapper {
     width: 250vw;
   }
-  #iconsContainer{
-  gap: 15%;
-}
-#iconsContainer  :nth-child(3){
-  scale: 1.5;
-}
+  #iconsContainer {
+    gap: 15%;
+  }
+  #iconsContainer :nth-child(3) {
+    scale: 1.5;
+  }
 }
 
 @media (min-width: 768px) {
   #iconsWrapper {
     width: 200vw;
+    height: 20vh;
   }
 
   #iconsContainer {
@@ -54,20 +55,17 @@ min-height:150px;
     min-width: 200px;
     min-height: 150px;
   }
-  #iconsContainer  :nth-child(3){
+  #iconsContainer :nth-child(3) {
     scale: 1.5;
   }
 }
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(100%);
-  }
-  10% {
-    transform: translateX(65%);
+    transform: translateX(50%);
   }
   50% {
-    transform: translateX(-10%);
+    transform: translateX(-25%);
   }
   100% {
     transform: translateX(-100%);

@@ -5,10 +5,10 @@ const IconsSection = () =>{
         <>
             <section id={IconsSectionStyles.iconsWrapper}>
                 <div id={IconsSectionStyles.iconsContainer}>
-                    <img src="/catena-logo.jpg" alt="Catena Zapata" height={"100px"} width={"250px"}/>
+                    <img src="/catena-logo.jpg" alt="Catena Zapata" height={"100px"} width={"150px"}/>
                     <img src="/chandon-logo.jpg" alt="Chandon" height={"200px"} width={"200px"}/>
                     <img src="/rutini-logo.jpg" alt="Rutini Wines" height={"150px"} width={"200px"}/>
-                    <img src="/casaspirque-logo.jpg" alt="Catena Zapata" height={"150px"} width={"200px"}/>
+                    <img src="/casaspirque-logo.jpg" alt="Catena Zapata" height={"150px"} width={"150px"}/>
                 </div>
             </section>
         </>
