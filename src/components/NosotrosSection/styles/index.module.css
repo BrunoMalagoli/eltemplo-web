@@ -1,6 +1,6 @@
 
 #nosotrosWrapper{
-    height: 60dvh;
+    height: 100dvh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +11,37 @@
     width: 100%;
     background-color: #000000 ;
 }
-
+.nosotrosInfo > p{
+    color: #fafafa;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nosotrosInfo > span {
+    width: 100%;
+    color: #fafafa;
+}
 .map{
     height: 40%;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    #nosotrosWrapper{
+        height: 60dvh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nosotrosInfo{
+        height: 100%;
+        width: 50%;
+        background-color: #000000 ;
+    }
+    
+    .map{
+        height: 100%;
+        width: 50%;
+    }
 }
