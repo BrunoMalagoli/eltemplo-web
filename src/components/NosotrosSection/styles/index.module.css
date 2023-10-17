@@ -1,0 +1,18 @@
+
+#nosotrosWrapper{
+    height: 60dvh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nosotrosInfo{
+    height: 60%;
+    width: 100%;
+    background-color: #000000 ;
+}
+
+.map{
+    height: 40%;
+    width: 100%;
+}
