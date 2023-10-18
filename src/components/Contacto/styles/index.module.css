@@ -1,0 +1,78 @@
+#contactWrapper{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.contactItem{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.contactButtons{
+    border: 2px solid black;
+    transition: ease-in-out 0.3s;
+    background-color: #DD3636;
+    color: #fafafa;
+    height: 20%;
+    font-weight: 400;
+    font-size: 2.3vh;
+    width: 80%;
+    text-align: center;
+    overflow-y: hidden;
+}
+.contactButtons:hover{
+    cursor: pointer;
+    background-color: #c21313;
+    width: 80%;
+    height: 20%;
+    font-weight: 400;
+    font-size: 2.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+@media (min-width : 768px) {
+
+    #contactWrapper{
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10vh;
+        align-items: center;
+    }
+    
+    .contactItem{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+
+    .contactButtons{
+ 
+        height: 20%;
+        font-weight: 400;
+        font-size: 2.5vh;
+        width: 50%;
+
+    }
+    .contactButtons:hover{
+        width: 50%;
+        height: 20%;
+        font-weight: 400;
+        font-size: 2.5vh;
+ 
+    }
+}
+
