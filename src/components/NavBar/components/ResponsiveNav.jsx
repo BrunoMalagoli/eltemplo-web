@@ -30,7 +30,7 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
           </li>
           <li>
             <Link
-              to="about"
+              to="nosotros"
               spy={true}
               smooth={true}
               duration={200}
@@ -41,7 +41,7 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
           </li>
           <li>
             <Link
-              to="contact"
+              to="contacto"
               spy={true}
               smooth={true}
               duration={200}

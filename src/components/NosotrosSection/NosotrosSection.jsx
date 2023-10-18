@@ -4,10 +4,11 @@ import IconPin from "./components/IconPin";
 import IconTelephone from "./components/IconTelephone";
 import UbiMap from "./components/Map";
 import NosotrosStyles from "./styles/index.module.css";
+import { Element } from "react-scroll"
 
 const NosotrosSection = () => {
   return (
-    <>
+    <Element name="nosotros">
       <section id={NosotrosStyles.nosotrosWrapper}>
         <div className={NosotrosStyles.nosotrosInfo}>
           <p id={NosotrosStyles.about}>
@@ -38,7 +39,7 @@ const NosotrosSection = () => {
           <UbiMap />
         </div>
       </section>
-    </>
+    </Element>
   );
 };
 

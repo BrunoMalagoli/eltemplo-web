@@ -89,10 +89,12 @@ a:hover {
 .active_li::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 20%;
   height: 2px;
   background: rgb(255, 255, 255);
   transition: width 0.3s;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 /*ESTILOS DESKTOP*/
