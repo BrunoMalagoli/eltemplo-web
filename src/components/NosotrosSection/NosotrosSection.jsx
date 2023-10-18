@@ -16,9 +16,9 @@ const NosotrosSection = () => {
             Realizamos envios a todo el país. Hacemos ventas al por mayor y por
             menor.
           </p>
-          <p><IconPin height={"20px"} width={"20px"}/>  Griveo 3353</p>
-          <p><IconTelephone/> 1167203131</p>
-          <p><IconMail/> eltemplodevoto@gmail.com</p>
+          <p className={NosotrosStyles.infoP}><IconPin height={"20px"} width={"20px"}/>  Griveo 3353</p>
+          <p className={NosotrosStyles.infoP}><IconTelephone/> 1167203131</p>
+          <p className={NosotrosStyles.infoP}><IconMail/> eltemplodevoto@gmail.com</p>
         </div>
         <div className={NosotrosStyles.map}>
           <UbiMap />

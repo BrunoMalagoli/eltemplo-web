@@ -16,7 +16,13 @@
     width: 80%;
     padding-left: 10%;
     padding-top: 5%;
+}
+.infoP{
+    color: #fafafa;
+    padding-top: 3%;
     padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
 }
 .nosotrosInfo > span {
     width: 100%;
