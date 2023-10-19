@@ -1,5 +1,51 @@
 
 
 #footerContainer{
-    height: 50dvh;
+    padding-top: 15%;
+    height: 80dvh;
+    background-color: #171717;
 }
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info {
+    color: #fafafa;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.8em;
+    overflow: hidden;
+  }
+  #mediaContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #mediaContainer > div{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 1;
+  }
+  #mediaContainer > h4{
+    color: #fafafa;
+    font-size: 1.5em;
+    padding: 2%;
+  }
+
+  .FooterLogo{
+    display: flex;
+    justify-content: center;
+  }

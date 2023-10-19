@@ -4,7 +4,7 @@
   font-size: large;
 }
 #nav_container {
-  background-color: #000000;
+  background-color: #0a0a0a;
   width: 92%;
   height: 15dvh;
   padding-left: 4%;
@@ -17,7 +17,7 @@
   overflow-y: hidden;
 }
 #nav_container_active {
-  background-color: #000000;
+  background-color: #0a0a0a;
   width: 92%;
   height: 50dvh;
   top: 0;
@@ -47,7 +47,7 @@
   overflow-y: hidden;
 }
 #nav_button {
-  background-color: #000000;
+  background-color: #0a0a0a;
   border: none;
   display: flex;
   align-items: center;
