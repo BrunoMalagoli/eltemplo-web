@@ -25,7 +25,7 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
               duration={200}
               activeClass={NavStyles.active_li}
             >
-              <a>Inicio</a>
+              Inicio
             </Link>
           </li>
           <li>
@@ -36,7 +36,7 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
               duration={200}
               activeClass={NavStyles.active_li}
             >
-              <a>Nosotros</a>
+              Nosotros
             </Link>
           </li>
           <li>
@@ -47,7 +47,7 @@ const ResponsiveNav = ({ isOpen, isMobile }) => {
               duration={200}
               activeClass={NavStyles.active_li}
             >
-              <a>Contacto</a>
+              Contacto
             </Link>
           </li>
         </Fade>
