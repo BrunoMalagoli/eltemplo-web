@@ -8,6 +8,7 @@ import IconMail from "../NosotrosSection/components/IconMail";
 
 const Footer = () => {
   return (
+    <>
     <footer id={FooterStyles.footerContainer}>
       <div id={FooterStyles.mediaContainer}>
         <h4>Seguinos</h4>
@@ -41,6 +42,8 @@ const Footer = () => {
         />
       </div>
     </footer>
+    <p id={FooterStyles.dev}>Desarrollado por Bruno Malagoli - Web Developer</p>
+    </>
   );
 };
 
