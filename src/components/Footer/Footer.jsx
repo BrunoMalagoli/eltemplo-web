@@ -5,16 +5,22 @@ import IconClockCircle from "../NosotrosSection/components/IconClock";
 import IconPin from "./components/IconPin";
 import IconTelephone from "../NosotrosSection/components/IconTelephone";
 import IconMail from "../NosotrosSection/components/IconMail";
+import useOnResize from "../../hooks/useOnResize";
 
 const Footer = () => {
+  const {isSmall} = useOnResize();
   return (
     <>
     <footer id={FooterStyles.footerContainer}>
       <div id={FooterStyles.mediaContainer}>
         <h4>Seguinos</h4>
         <div>
+          <a href="https://instagram.com/el.templo.distribuidora?igshid=MzRlODBiNWFlZA==" target="__blank">
             <IconInstagram height={"2rem"} width={"2rem"} />
+          </a>
+          <a href="">
             <IconFacebook height={"2rem"} width={"2rem"} />
+          </a>
         </div>
       </div>
       <div className={FooterStyles.infoWrapper}>
@@ -35,8 +41,8 @@ const Footer = () => {
       </div>
       <div className={FooterStyles.FooterLogo}>
         <img
-          width={"150px"}
-          height={"150px"}
+          width={ isSmall ? "100px" : "150px"}
+          height={ isSmall ? "100px" : "150px"}
           src="/eltemploLogo.jpg"
           alt="logo"
         />

@@ -2,7 +2,7 @@
   background-color: #F4F4F4;
   height: 60dvh;
   width: 100%;
-  margin-top: 20dvh;
+  margin-top: 15dvh;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
@@ -34,7 +34,7 @@
   #heroContainer {
     height: 81dvh;
     width: 100%;
-    margin-top: 19dvh;
+    margin-top: 14dvh;
   }
   #mainTitleWrapper{
     width: 100%;
