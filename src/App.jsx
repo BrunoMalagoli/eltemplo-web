@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import IconsSection from './components/IconsSection/IconsSection'
 import NavBar from './components/NavBar/NavBar'
 import NosotrosSection from './components/NosotrosSection/NosotrosSection'
+import OurWork from './components/OurWork/OurWork'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero/>
         <IconsSection/>
         <NosotrosSection/>
+        <OurWork/>
         <Contacto/>
         <Footer/>
     </>

@@ -45,6 +45,14 @@ const slideImages = [
     url: '/magdalena.jpeg',
     urlMobile: "/magdalena.jpeg"
   },
+  {
+    url: '/angelica.jpg',
+    urlMobile: "/angelica.jpg"
+  },
+  {
+    url: '/dv.jpg',
+    urlMobile: "/dv.jpg"
+  },
 ];
 
 const Carousel = () => {

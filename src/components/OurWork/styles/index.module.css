@@ -1,0 +1,42 @@
+
+#workSection{
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 1%;
+}
+
+.workElements{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    background-color: #fc4f4f;
+    border-bottom: 2px dashed black;
+    color: #fafafa;
+    font-size: 1.2em;
+}
+
+.workElements:hover{
+    cursor: pointer;
+    background-color: #ca1818;
+}
+
+/*Dropdown text styles*/
+
+.textContainer{
+    width: 90%;
+    padding: 5%;
+    height: 100%;
+    transition: height 2s ease;
+}
+
+.textContainer > h3{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.textContainer > p{
+
+}

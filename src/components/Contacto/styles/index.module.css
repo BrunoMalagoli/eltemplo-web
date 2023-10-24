@@ -6,7 +6,7 @@
 }
 
 .contactItem{
-    height: 50%;
+    height: 70%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     color: #fafafa;
     height: 20%;
     font-weight: 400;
-    font-size: 2.3vh;
+    font-size: 1.3em;
     width: 80%;
     text-align: center;
     overflow-y: hidden;
@@ -32,7 +32,7 @@
     width: 80%;
     height: 20%;
     font-weight: 400;
-    font-size: 2.3vh;
+    font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@
     }
     
     .contactItem{
-        height: 50%;
+        height: 70%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -63,15 +63,15 @@
  
         height: 20%;
         font-weight: 400;
-        font-size: 2.5vh;
-        width: 50%;
+        font-size: 1.4em;
+        width: 60%;
 
     }
     .contactButtons:hover{
-        width: 50%;
+        width: 60%;
         height: 20%;
         font-weight: 400;
-        font-size: 2.5vh;
+        font-size: 1.4em;
  
     }
 }
