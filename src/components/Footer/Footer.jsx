@@ -5,24 +5,15 @@ import IconClockCircle from "../NosotrosSection/components/IconClock";
 import IconPin from "./components/IconPin";
 import IconTelephone from "../NosotrosSection/components/IconTelephone";
 import IconMail from "../NosotrosSection/components/IconMail";
-import useOnResize from "../../hooks/useOnResize";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const { isSmall } = useOnResize();
   const phoneNumber = +541167203131;
   const message = "Hola, me gustaria tener mi pagina web";
   return (
     <>
       <footer id={FooterStyles.footerContainer}>
-      <div className={FooterStyles.FooterLogo}>
-          <img
-            width={isSmall ? "100px" : "80px"}
-            height={isSmall ? "100px" : "80px"}
-            src="/eltemploLogo.jpg"
-            alt="logo"
-          />
-        </div>
+      
         <div id={FooterStyles.mediaContainer}>
           <h4>Seguinos</h4>
           <div>
@@ -54,7 +45,6 @@ const Footer = () => {
             LUNES a VIERNES 9HS a 17HS.
           </p>
         </div>
-
       </footer>
         <p id={FooterStyles.dev}>
       <Link 
