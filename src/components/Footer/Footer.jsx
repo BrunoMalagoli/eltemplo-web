@@ -15,6 +15,14 @@ const Footer = () => {
   return (
     <>
       <footer id={FooterStyles.footerContainer}>
+      <div className={FooterStyles.FooterLogo}>
+          <img
+            width={isSmall ? "100px" : "80px"}
+            height={isSmall ? "100px" : "80px"}
+            src="/eltemploLogo.jpg"
+            alt="logo"
+          />
+        </div>
         <div id={FooterStyles.mediaContainer}>
           <h4>Seguinos</h4>
           <div>
@@ -46,14 +54,7 @@ const Footer = () => {
             LUNES a VIERNES 9HS a 17HS.
           </p>
         </div>
-        <div className={FooterStyles.FooterLogo}>
-          <img
-            width={isSmall ? "100px" : "150px"}
-            height={isSmall ? "100px" : "150px"}
-            src="/eltemploLogo.jpg"
-            alt="logo"
-          />
-        </div>
+
       </footer>
         <p id={FooterStyles.dev}>
       <Link 

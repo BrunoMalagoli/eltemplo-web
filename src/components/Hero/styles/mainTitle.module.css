@@ -4,7 +4,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 5px;
 }
 
@@ -13,7 +13,7 @@
     text-align: center;
     font-family: "Roboto";
     font-size: 6vh;
-    font-weight: 700;
+    font-weight: 600;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
 }
@@ -22,7 +22,7 @@
     color: black;
     text-align: center;
     font-family: "Roboto";
-    font-weight: 700;
+    font-weight: 500;
     font-size: 3vh;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 
@@ -50,8 +50,11 @@
     }
     #mainTitleContainer > h1{
         text-align: left;
+        font-size: 2.5em;
     }
     #mainTitleContainer > h3{
         text-align: left;
+        font-size: 1.5em;
+        font-weight: 400;
     }
 }
