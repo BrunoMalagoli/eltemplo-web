@@ -6,11 +6,12 @@ import IconsSection from './components/IconsSection/IconsSection'
 import NavBar from './components/NavBar/NavBar'
 import NosotrosSection from './components/NosotrosSection/NosotrosSection'
 import OurWork from './components/OurWork/OurWork'
-
+import { BrowserRouter } from 'react-router-dom'
 function App() {
 
   return (
     <>
+      <BrowserRouter>
         <NavBar/>  
         <Hero/>
         <IconsSection/>
@@ -18,6 +19,7 @@ function App() {
         <OurWork/>
         <Contacto/>
         <Footer/>
+      </BrowserRouter>
     </>
   )
 }

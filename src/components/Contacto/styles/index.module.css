@@ -1,11 +1,11 @@
-#contactWrapper{
+#contactWrapper {
     height: 80vh;
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
 }
 
-.contactItem{
+.contactItem {
     height: 70%;
     width: 100%;
     display: flex;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-.contactButtons{
+.contactButtons {
     border: 2px solid black;
     transition: ease-in-out 0.3s;
     background-color: #DD3636;
@@ -25,54 +25,46 @@
     width: 80%;
     text-align: center;
     overflow-y: hidden;
+    text-decoration: none;
 }
-.contactButtons:hover{
-    cursor: pointer;
-    background-color: #c21313;
+.link{
     width: 80%;
     height: 20%;
+    font-size: 1em;
+}
+.link > .contactButtons{
+    height: 100%;
+    width: 100%;
     font-weight: 400;
     font-size: 1.3em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
+}
+.contactButtons:hover {
+    cursor: pointer;
+    background-color: #c21313;
 }
 
-@media (min-width : 768px) {
-
-    #contactWrapper{
+@media (min-width: 768px) {
+    #contactWrapper {
         height: 80vh;
         display: flex;
         flex-direction: row;
         margin-top: 10vh;
         align-items: center;
     }
-    
-    .contactItem{
-        height: 70%;
+
+    .link {
+        height: 20%;
+        width: 60%;
+        font-size: 1em;
+    }
+    .link > .contactButtons{
+        height: 100%;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
     }
-    
-
-    .contactButtons{
- 
+    .contactButtons {
         height: 20%;
         font-weight: 400;
         font-size: 1.4em;
         width: 60%;
-
-    }
-    .contactButtons:hover{
-        width: 60%;
-        height: 20%;
-        font-weight: 400;
-        font-size: 1.4em;
- 
     }
 }
-

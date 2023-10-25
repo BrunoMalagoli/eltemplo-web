@@ -29,7 +29,11 @@
   justify-content: left;
   padding-left: 20%;
 }
-
+.buttonContainer > a{
+  width: 80%;
+  height: 100%;
+  text-align: center;
+}
 @media (max-width: 768px) {
   #heroContainer {
     height: 81dvh;
