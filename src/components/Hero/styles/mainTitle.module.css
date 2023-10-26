@@ -40,8 +40,8 @@
 }
 @media (width > 768px){
     #mainTitleContainer{
-        height: 60%;
-        width: 90%;
+        height: 70%;
+        width: 65%;
         display: flex;
         flex-direction: column;
         padding-top: 5%;
