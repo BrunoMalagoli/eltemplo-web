@@ -9,7 +9,7 @@ const divStyle = {
   justifyContent: 'center',
   backgroundSize: 'cover',
   backgroundPosition : 'center',
-  height: '60dvh',
+  height: '60vh',
   width: "50vw"
 }
 const MobileDivStyle = {
@@ -62,7 +62,7 @@ const Carousel = () => {
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
-              <div style={ isMedium ? { ...MobileDivStyle, 'backgroundImage': `url(${slideImage.urlMobile})` , "height" : "calc(80dvh * (43.5/100))" }: { ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}/>
+              <div style={ isMedium ? { ...MobileDivStyle, 'backgroundImage': `url(${slideImage.urlMobile})` , "height" : "calc(80vh * (43.5/100))" }: { ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}/>
             </div>
           ))} 
         </Slide>

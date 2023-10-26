@@ -6,11 +6,11 @@
 #nav_container {
   background-color: #0a0a0a;
   width: 92%;
-  height: 10dvh;
+  height: 12vh;
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 2.5dvh;
-  padding-bottom: 2.5dvh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   top: 0;
   position: fixed;
   z-index: 10;
@@ -20,11 +20,11 @@
 #nav_container_active {
   background-color: #0a0a0a;
   width: 92%;
-  height: 50dvh;
+  height: 50vh;
   top: 0;
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 5dvh;
+  padding-top: 5vh;
   position: fixed;
   z-index: 10;
   transition: 0.8s ease-in-out;
@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 12dvh;
+  height: 12vh;
   overflow-y: hidden;
 }
 #nav_button {
